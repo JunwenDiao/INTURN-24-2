@@ -1,0 +1,18 @@
+import model DiracN_UFO
+
+generate e+ e- > ve fs~
+add process e+ e- > ve~ fs
+
+output /home/jwdiao/eEvN_v5
+
+launch
+
+set nevents 100000
+set ebeam1 1500
+set ebeam2 1500
+set param_card mass 9000005 1000
+set param_card mass 11 0.0005
+
+set drll 0.0
+set etal -1.0
+set ptl -1.0
